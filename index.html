@@ -5,18 +5,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="weatherCheck.css">
-  <script src="weatherCheck.js"></script>
 </head>
 
 <body>
   <div class ="temp-console">
-    <p>現在の下山の気温</p>
+    <p class ="parent-location">現在の<span class ="shimoyama-location">下山地区</span>の気温</p>
   </div>
   <div class ="map">
-    <img class ="map-img" src="map.jpg">  
+    <img class ="map-img" src="map.jpg"> 
+    <p class ="toyota-marker">●<b>本社</b></p>
+    <p class ="shimoyama-marker">●<b>下山</b></p>
   </div>
   <div class ="alert">
     <p>注意情報</p>
   </div>
 </body>
+<script src="weatherCheck.js"></script>
 </html>
