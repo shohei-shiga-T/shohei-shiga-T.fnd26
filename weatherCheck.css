@@ -1,7 +1,25 @@
 body {
-    text-align: center;
+  text-align: center;
 }
+.map {
+  position:relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
 .map-img {
-    width: 400px;
-    height: 400px;
+  width: 100%
+}
+
+.toyota-marker {
+  position: absolute;
+  top: 160px;
+  left: 110px;
+}
+
+.shimoyama-marker {
+  position: absolute;
+  top: 215px;
+  left: 310px;
 }
